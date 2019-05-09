@@ -21,7 +21,7 @@ defmodule VirusTotal do
 
   Valid parameters:
   - `:allinfo`: if this is specified and set to 1, the call will return additional info.
-                This is turned ON by default
+    This is turned ON by default
 
       iex> file_report(client, "7bf5623f0a10dfa148a35bebd899b7758612f1693d2a9910f716cf15a921a76a")
       {:ok, %{"ITW_urls" => ["https://chiru.no/u/rensenware.exe"]}}
