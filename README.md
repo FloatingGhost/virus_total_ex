@@ -26,7 +26,7 @@ by adding `virus_total` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:virus_total, "~> 0.1.0"}
+    {:virus_total_ex, "~> 0.1.0"}
   ]
 end
 ```

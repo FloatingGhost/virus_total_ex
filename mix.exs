@@ -3,7 +3,7 @@ defmodule VirusTotal.MixProject do
 
   def project do
     [
-      app: :virus_total,
+      app: :virus_total_ex,
       version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
@@ -18,7 +18,7 @@ defmodule VirusTotal.MixProject do
       maintainers: ["FloatingGhost"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/FloatingGhost/ex_aws_secrets",
+        "GitHub" => "https://github.com/FloatingGhost/virus_total_ex",
         "API documentation" => "https://www.virustotal.com/en/documentation/private-api/"
       }
     ]
@@ -36,7 +36,8 @@ defmodule VirusTotal.MixProject do
     [
       {:tesla, "~> 1.2.0"},
       {:hackney, "~> 1.15.1"},
-      {:jason, "~> 1.1.0"}
+      {:jason, "~> 1.1.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 end
