@@ -33,5 +33,5 @@ end
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/virus_total](https://hexdocs.pm/virus_total_ex).
+be found at [https://hexdocs.pm/virus_total_ex](https://hexdocs.pm/virus_total_ex).
 
