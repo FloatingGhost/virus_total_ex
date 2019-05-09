@@ -41,7 +41,7 @@ defmodule VirusTotal do
       {:ok, %{"scan_id" => "something"}}
 
   Valid parameters:
-  - `:date`: Date in %Y%m%d%H%M%S format (example: 20120725170000)
+  - `:date`: Date in `%Y%m%d%H%M%S` format (example: `20120725170000`)
           in which the rescan should be performed.
           If not specified the rescan will be performed immediately.
   - `:period`: Periodicity (in days) with which the file should be rescanned.
